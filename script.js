@@ -105,3 +105,18 @@ console.log(a === b);
 // }
 
 
+// ! TERNARY OPERATOR
+
+var grade = 47;
+
+grade < 45 ? console.log('You can not go to next class') : console.log('You can go next class');
+
+
+var result = grade < 45 ? 'fail' : 'pass'
+console.log(result);
+
+if (grade < 45) {
+    console.log('fail');
+} else {
+    console.log('pass')
+}
