@@ -219,13 +219,34 @@ hasCourse = true;
 // }
 
 
-console.log('numbers divisible by 7');
+// console.log('numbers divisible by 7');
 
-var count = 25
+// var count = 25
 
-while (count <= 100) {
-    if (count % 7 === 0) {
-        console.log(count)
+// while (count <= 100) {
+//     if (count % 7 === 0) {
+//         console.log(count)
+//     }
+//     count++;
+// }
+
+
+// !FOR LOOP
+
+// for (var num = 1; num < 11; num++) {
+//     console.log(num)
+// }
+
+
+// for (var num = 132; num < 143; num++) {
+//     if (num % 2 !== 0) {
+//         console.log(num);
+//     }
+// }
+
+
+for (let i = 25; i < 101; i++) {
+    if (i % 7 === 0 && i % 5 === 0) {
+        console.log(i)
     }
-    count++;
 }
