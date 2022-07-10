@@ -50,36 +50,36 @@ hasCourse = true;
 
 // !!!!!!!!!!!!!!!!!!!!! BASIC OPERATORS !!!!!!!!!!!!!!!!!!!!!
 
-var totalDistance, distanceAlex, distanceSam;
+// var totalDistance, distanceAlex, distanceSam;
 
-totalDistance = 20;
-distanceAlex = totalDistance - 12;
-console.log(distanceAlex);
+// totalDistance = 20;
+// distanceAlex = totalDistance - 12;
+// console.log(distanceAlex);
 
-distanceSam = totalDistance - 7;
-console.log(distanceSam);
+// distanceSam = totalDistance - 7;
+// console.log(distanceSam);
 
-console.log(distanceSam * 2);
+// console.log(distanceSam * 2);
 
-console.log(distanceSam / 2);
+// console.log(distanceSam / 2);
 
 // !Logical Operators
 
-var distanceToSchool, distanceToHome;
+// var distanceToSchool, distanceToHome;
 
-distanceToHome = 14;
-distanceToSchool = 6;
+// distanceToHome = 14;
+// distanceToSchool = 6;
 
-var isCloser = distanceToSchool > distanceToHome;
-console.log(isCloser);
+// var isCloser = distanceToSchool > distanceToHome;
+// console.log(isCloser);
 
 // !Boolean Logic
 
-var a = '10';
-var b = 10;
+// var a = '10';
+// var b = 10;
 
-console.log(a == b);
-console.log(a === b);
+// console.log(a == b);
+// console.log(a === b);
 
 
 // ****CONDITIONAl STATEMENTS*****
@@ -171,20 +171,61 @@ console.log(a === b);
 // }
 
 
-var gradeAlex = (80 + 90 + 95) / 3;
-var gradeSara = (89 + 76 + 98) / 3;
-var gradeNancy = (42 + 98 + 83) / 3;
+// var gradeAlex = (80 + 90 + 95) / 3;
+// var gradeSara = (89 + 76 + 98) / 3;
+// var gradeNancy = (42 + 98 + 83) / 3;
 
-console.log('Alex average grade', gradeAlex);
-console.log('Sara average grade', gradeSara);
-console.log('Nancy average grade', gradeNancy);
+// console.log('Alex average grade', gradeAlex);
+// console.log('Sara average grade', gradeSara);
+// console.log('Nancy average grade', gradeNancy);
 
-if (gradeAlex > gradeSara && gradeAlex > gradeNancy) {
-    console.log('Alex is the Highest Grade', gradeAlex);
-} else if (gradeSara > gradeAlex && gradeSara > gradeNancy) {
-    console.log('Sara is the Highest Grade', gradeAlex);
-} else if (gradeNancy > gradeAlex && gradeNancy > gradeSara) {
-    console.log('Nancy is the Highest Grade', gradeAlex);
-} else {
-    console.log('all are same average');
+// if (gradeAlex > gradeSara && gradeAlex > gradeNancy) {
+//     console.log('Alex is the Highest Grade', gradeAlex);
+// } else if (gradeSara > gradeAlex && gradeSara > gradeNancy) {
+//     console.log('Sara is the Highest Grade', gradeAlex);
+// } else if (gradeNancy > gradeAlex && gradeNancy > gradeSara) {
+//     console.log('Nancy is the Highest Grade', gradeAlex);
+// } else {
+//     console.log('all are same average');
+// }
+
+
+// !!WHILE LOOP
+
+// var number = 1;
+
+// while (number < 11) {
+//     console.log(number);
+//     number++; //number = number+1
+// }
+
+
+// var num = 132;
+
+// while (num <= 148) {
+//     console.log(num);
+//     num += 2;
+// }
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// var num = 132;
+
+// while (num <= 148) {
+//     if (num % 2 === 0) {
+//         console.log(num)
+//     }
+//     num++;
+// }
+
+
+console.log('numbers divisible by 7');
+
+var count = 25
+
+while (count <= 100) {
+    if (count % 7 === 0) {
+        console.log(count)
+    }
+    count++;
 }
