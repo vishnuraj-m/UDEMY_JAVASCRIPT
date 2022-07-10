@@ -80,3 +80,28 @@ var b = 10;
 
 console.log(a == b);
 console.log(a === b);
+
+
+// ****CONDITIONAl STATEMENTS*****
+
+// var grade = prompt('Enter your mark');
+
+// if (grade < 40) {
+//     console.log('You can not go to next class');
+// } else if (grade >= 40 && grade < 45) {
+//     console.log('You can not go next class but you can enter exam');
+// } else {
+//     console.log('You can go next class');
+// }
+
+
+// var age = prompt('Enter your age');
+// if (age < 18) {
+//     console.log('you are not allowed to enter the cafe');
+// } else if (age >= 18 && age < 23) {
+//     console.log('You can enter the cafe but can not drink alcohol')
+// } else {
+//     console.log('You can enter cafe and drink alcohol');
+// }
+
+
