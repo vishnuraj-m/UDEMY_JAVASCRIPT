@@ -154,18 +154,37 @@ console.log(a === b);
 // }
 
 
-var grade = prompt('Enter your mark');
+// var grade = prompt('Enter your mark');
 
-switch (true) {
-    case (grade < 40):
-        console.log('You can not go to next class');
-        break;
+// switch (true) {
+//     case (grade < 40):
+//         console.log('You can not go to next class');
+//         break;
 
-    case (grade >= 40 && grade < 45):
-        console.log('You can not go next class but you can enter exam');
-        break;
+//     case (grade >= 40 && grade < 45):
+//         console.log('You can not go next class but you can enter exam');
+//         break;
 
-    default:
-        console.log('You can go to next class');
-        break;
+//     default:
+//         console.log('You can go to next class');
+//         break;
+// }
+
+
+var gradeAlex = (80 + 90 + 95) / 3;
+var gradeSara = (89 + 76 + 98) / 3;
+var gradeNancy = (42 + 98 + 83) / 3;
+
+console.log('Alex average grade', gradeAlex);
+console.log('Sara average grade', gradeSara);
+console.log('Nancy average grade', gradeNancy);
+
+if (gradeAlex > gradeSara && gradeAlex > gradeNancy) {
+    console.log('Alex is the Highest Grade', gradeAlex);
+} else if (gradeSara > gradeAlex && gradeSara > gradeNancy) {
+    console.log('Sara is the Highest Grade', gradeAlex);
+} else if (gradeNancy > gradeAlex && gradeNancy > gradeSara) {
+    console.log('Nancy is the Highest Grade', gradeAlex);
+} else {
+    console.log('all are same average');
 }
