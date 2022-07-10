@@ -91,7 +91,7 @@ console.log(a === b);
 // } else if (grade >= 40 && grade < 45) {
 //     console.log('You can not go next class but you can enter exam');
 // } else {
-//     console.log('You can go next class');
+//     console.log('You can go to next class');
 // }
 
 
@@ -107,16 +107,65 @@ console.log(a === b);
 
 // ! TERNARY OPERATOR
 
-var grade = 47;
+// var grade = 47;
 
-grade < 45 ? console.log('You can not go to next class') : console.log('You can go next class');
+// grade < 45 ? console.log('You can not go to next class') : console.log('You can go next class');
 
 
-var result = grade < 45 ? 'fail' : 'pass'
-console.log(result);
+// var result = grade < 45 ? 'fail' : 'pass'
+// console.log(result);
 
-if (grade < 45) {
-    console.log('fail');
-} else {
-    console.log('pass')
+// if (grade < 45) {
+//     console.log('fail');
+// } else {
+//     console.log('pass')
+// }
+
+
+// !SWITCH
+
+// var day = prompt('Enter Day');
+
+// switch (day) {
+//     case 'sunday':
+//         console.log('sunday');
+//         break;
+//     case 'monday':
+//         console.log('monday');
+//         break;
+//     case 'tuesday':
+//         console.log('tuesday');
+//         break;
+//     case 'wednesday':
+//         console.log('wednesday');
+//         break;
+//     case 'thursday':
+//         console.log('thursday');
+//         break;
+//     case 'friday':
+//         console.log('friday');
+//         break;
+//     case 'saturday':
+//         console.log('saturday');
+//         break;
+//     default:
+//         console.log('Wrong command');
+//         break;
+// }
+
+
+var grade = prompt('Enter your mark');
+
+switch (true) {
+    case (grade < 40):
+        console.log('You can not go to next class');
+        break;
+
+    case (grade >= 40 && grade < 45):
+        console.log('You can not go next class but you can enter exam');
+        break;
+
+    default:
+        console.log('You can go to next class');
+        break;
 }
