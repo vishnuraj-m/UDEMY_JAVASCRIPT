@@ -245,8 +245,85 @@ hasCourse = true;
 // }
 
 
-for (let i = 25; i < 101; i++) {
-    if (i % 7 === 0 && i % 5 === 0) {
-        console.log(i)
-    }
+// for (let i = 25; i < 101; i++) {
+//     if (i % 7 === 0 && i % 5 === 0) {
+//         console.log(i)
+//     }
+// }
+
+// !FUNCTIONS
+
+// *function without argument
+
+// function sayHello() {
+//     console.log('Hello world');
+// }
+
+// sayHello();
+
+// *print 4 times
+
+// function doSomething() {
+//     console.log('Hi');
+//     console.log('How are you');
+//     console.log('Good Bye!');
+// }
+
+// doSomething();
+// doSomething();
+// doSomething();
+// doSomething();
+
+
+// * function with argument
+
+// !!!!!!
+// function sayHi(name) {
+//     console.log('Hi' + ' ' + name);
+// }
+// sayHi(prompt('enter'));
+
+// !!!!!!
+// function cube(num) {
+//     console.log(num * num * num);
+// }
+// cube(3);
+
+// !!!!!!
+// function bodyMassIndex(length, weight) {
+//     console.log(weight / (length + length));
+// }
+// bodyMassIndex(1.80, 85);
+
+
+
+// * function with argument and return value
+
+// !!!!!!
+// function cube(number) {
+//     if (number === 25) {
+//         return 25;
+//     }
+//     return (number * number * number);
+// }
+
+// var num = cube(25)
+// console.log('this is another console', num);
+
+// !!!!!!
+function calcAge(birthYear) {
+    return 2022 - birthYear;
 }
+
+var age = calcAge(1992);
+console.log('this is the age', age);
+
+// !!!!!!
+function enterCafe(age) {
+    if (age < 18) {
+        return 'you can not enter the cafe';
+    }
+    return 'you can enter the cafe';
+}
+var cafe = enterCafe(72);
+console.log(cafe);
