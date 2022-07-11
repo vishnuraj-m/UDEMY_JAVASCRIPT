@@ -311,19 +311,69 @@ hasCourse = true;
 // console.log('this is another console', num);
 
 // !!!!!!
-function calcAge(birthYear) {
-    return 2022 - birthYear;
-}
+// function calcAge(birthYear) {
+//     return 2022 - birthYear;
+// }
 
-var age = calcAge(1992);
-console.log('this is the age', age);
+// var age = calcAge(1992);
+// console.log('this is the age', age);
 
 // !!!!!!
-function enterCafe(age) {
-    if (age < 18) {
-        return 'you can not enter the cafe';
+// function enterCafe(age) {
+//     if (age < 18) {
+//         return 'you can not enter the cafe';
+//     }
+//     return 'you can enter the cafe';
+// }
+// var cafe = enterCafe(72);
+// console.log(cafe);
+
+// *Function Expression
+
+// var calculateAge = function (birthYear) {
+//     return 2022 - birthYear;
+// }
+
+// var age = calculateAge(1992);
+// console.log(age);
+
+//! *subtraction function
+// function calSubtraction(a, b) {
+//     return a - b;
+// }
+// var sub = calSubtraction(15, 3);
+// console.log(sub);
+
+//! *subtraction function with expression
+
+// var CalSub = function (num1, num2) {
+//     return (num1 - num2);
+// }
+// var subtraction = CalSub(10, 5);
+// console.log(subtraction)
+
+
+// !999999999999999999
+
+// var isOdd = function (number) {
+//     if (number % 2 !== 0) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// console.log(isOdd(5));
+
+
+// !addition
+
+var addition = function (number) {
+    var res = 0;
+    for (var i = 1; i <= number; i++) {
+        res = res + i;
     }
-    return 'you can enter the cafe';
+    return res;
 }
-var cafe = enterCafe(72);
-console.log(cafe);
+
+var addResult = addition(3);
+console.log(addResult);
